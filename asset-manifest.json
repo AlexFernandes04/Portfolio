@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.888e4034.css",
-    "main.js": "/Portfolio/static/js/main.516d8977.js",
+    "main.css": "/Portfolio/static/css/main.fc6c025f.css",
+    "main.js": "/Portfolio/static/js/main.67aafc3a.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/Plane.jpg": "/Portfolio/static/media/Plane.a0c0ef4c912ad9e6ab7d.jpg",
     "static/media/Comparison_Between_Nuclear_and_Solar_Energy_Land_Use_and_Costs.pdf": "/Portfolio/static/media/Comparison_Between_Nuclear_and_Solar_Energy_Land_Use_and_Costs.92e8e9a8e46c8db78bef.pdf",
@@ -17,12 +17,12 @@
     "static/media/Fuel Assemblies.png": "/Portfolio/static/media/Fuel Assemblies.a1aa3c3ce27b686a523b.png",
     "static/media/Ground Station PCB.png": "/Portfolio/static/media/Ground Station PCB.d7d07454201f66b4b8f4.png",
     "index.html": "/Portfolio/index.html",
-    "main.888e4034.css.map": "/Portfolio/static/css/main.888e4034.css.map",
-    "main.516d8977.js.map": "/Portfolio/static/js/main.516d8977.js.map",
+    "main.fc6c025f.css.map": "/Portfolio/static/css/main.fc6c025f.css.map",
+    "main.67aafc3a.js.map": "/Portfolio/static/js/main.67aafc3a.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.888e4034.css",
-    "static/js/main.516d8977.js"
+    "static/css/main.fc6c025f.css",
+    "static/js/main.67aafc3a.js"
   ]
 }
