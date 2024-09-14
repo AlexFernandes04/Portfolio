@@ -42,7 +42,7 @@ function App() {
 
   return (
 
-    <div class="scroll-container" ref={scrollContainerRef}>
+    <div class="scroll-container bg-fuchsia-100" ref={scrollContainerRef}>
       <div class="p-8 lg:p-32 grid lg:grid-cols-2 pb-0 bg-gradient-to-b from-cyan-100 to-pink-100" data-scroll-section="">
         <div class="md:p-8 w-full text-center ">
           <div class="py-2">
@@ -140,7 +140,7 @@ function App() {
                 href="https://github.com/UWO-Aero-Design/gnd-station">View Repository</a>
             </div>
           </div>
-          <div class="py-16">
+          <div class="py-24">
             <div class="rounded-9xl overflow-hidden px-8 drop-shadow-xl">
               <Carousel Images={[Plane, Frontend, PCB]} Captions={["2024 Primary Aircraft", "Ground Station Frontend", "Ground Station PCB"]}></Carousel>
             </div>
@@ -153,7 +153,7 @@ function App() {
               <Carousel Images={[BPaper, ICS, Fuel]} Captions={["BWRX-300 ICS Paper", "ICS Train modeled in Simulink", "Fuel Assembly modeled in Simulink"]}></Carousel>
             </div>
           </div>
-          <div class="p-8 md:py-32 order-first md:order-last" data-scroll data-scroll-speed="2">
+          <div class="p-8 md:py-16 order-first md:order-last" data-scroll data-scroll-speed="2">
             <h1 class="md:text-7xl text-5xl font-extrabold title">BWRX-300 Isolation Condenser System</h1>
             <h4 class="text-lg p-2 pt-4 text-slate-400">As part of my research at Western University, I modeled the
               BWRX-300's passive cooling system: the Isolation Condenser System (ICS). The BWRX-300 is a Small
@@ -174,7 +174,7 @@ function App() {
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2">
-          <div class="p-8 md:py-32" data-scroll data-scroll-speed="2">
+          <div class="p-8 md:py-24" data-scroll data-scroll-speed="2">
             <h1 class="md:text-7xl text-5xl font-extrabold title">Nuclear Power Cost Analysis</h1>
             <h4 class="text-lg p-2 pt-4 text-slate-400">One of the projects I worked on during my research at
               Western University was
@@ -227,7 +227,7 @@ function App() {
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2">
-          <div class="p-8 md:py-32" data-scroll data-scroll-speed="2">
+          <div class="p-8 md:py-24" data-scroll data-scroll-speed="2">
             <h1 class="md:text-7xl text-5xl font-extrabold title">Investment Management App</h1>
             <h4 class="text-lg p-2 pt-4 text-slate-400">The Investment Management App is a project designed by
               myself and a couple of my fellow engineering students that gives the user all the information they need to make
@@ -244,12 +244,12 @@ function App() {
             </div>
           </div>
           <div>
-            <div class="rounded-9xl overflow-hidden px-8 py-16 drop-shadow-xl">
+            <div class="rounded-9xl overflow-hidden px-8 py-32 drop-shadow-xl">
               <Carousel Images={[FinanceHome, FinanceLogin, FinanceInvestments]} Captions={["Finance App Home Page", "Login Screen using Plaid API", "Investment Management Page"]}></Carousel>
             </div>
           </div>
         </div>
-        <div class="w-full mt-4 bg-opacity-30 grid md:grid-cols-2 grid-cols-1 px-4 font-bold text-gray-600 text-xl" >
+        <div class="w-full mt-4 bg-opacity-30 grid md:grid-cols-2 grid-cols-1 px-4 font-bold text-gray-600 text-xl pb-12" >
           <a href="https://www.linkedin.com/in/alex-fernandes-022a92257/">
             <h4 class="">LinkedIn</h4>
           </a>
