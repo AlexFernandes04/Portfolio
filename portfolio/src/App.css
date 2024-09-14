@@ -1,0 +1,181 @@
+#hero {
+  text-align: left;
+}
+
+#miniBanner {
+  font-size: 1.5rem;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+}
+
+.img {
+  height: 300px;
+  object-fit: cover;
+}
+
+#mainImg {
+  width: 100%;
+}
+
+.gradient1 {
+  background: hsla(195, 63%, 90%, 1);
+
+  background: linear-gradient(315deg, hsla(195, 63%, 90%, 1) 0%, hsla(0, 0%, 100%, 1) 48%, hsla(305, 100%, 93%, 1) 100%);
+
+  background: -moz-linear-gradient(315deg, hsla(195, 63%, 90%, 1) 0%, hsla(0, 0%, 100%, 1) 48%, hsla(305, 100%, 93%, 1) 100%);
+
+  background: -webkit-linear-gradient(315deg, hsla(195, 63%, 90%, 1) 0%, hsla(0, 0%, 100%, 1) 48%, hsla(305, 100%, 93%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#d7eef6", endColorstr="#ffffff", GradientType=1);
+}
+
+.gradient2 {
+  background: hsla(195, 63%, 90%, 1);
+
+  background: linear-gradient(45deg, hsla(195, 63%, 90%, 1) 0%, hsla(0, 0%, 100%, 1) 48%, hsla(305, 100%, 93%, 1) 100%);
+
+  background: -moz-linear-gradient(45deg, hsla(195, 63%, 90%, 1) 0%, hsla(0, 0%, 100%, 1) 48%, hsla(305, 100%, 93%, 1) 100%);
+
+  background: -webkit-linear-gradient(45deg, hsla(195, 63%, 90%, 1) 0%, hsla(0, 0%, 100%, 1) 48%, hsla(305, 100%, 93%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#d7eef6", endColorstr="#ffffff", GradientType=1);
+}
+
+.title {
+  font-family: 'Gloock', sans-serif;
+}
+
+.o-title {
+  margin: 0;
+  padding: 2.5rem 0;
+  perspective: 600px;
+  -webkit-perspective: 600px
+}
+
+.o-title_line {
+  display: block;
+  font-size: 0;
+  opacity: 0;
+  transform: translateY(100%) rotateX(-80deg);
+  transform-origin: center top;
+  transform-style: preserve-3d;
+  transition: opacity .8s cubic-bezier(.215, .61, .355, 1), transform .8s cubic-bezier(.215, .61, .355, 1)
+}
+
+.o-title.is-inview .o-title_line {
+  opacity: 1;
+  transform: none
+}
+
+.o-title.is-inview .o-title_line:first-child {
+  transition-delay: .4s
+}
+
+.o-title.is-inview .o-title_line:nth-child(2) {
+  transition-delay: .5s
+}
+
+.o-title.is-inview .o-title_line:nth-child(3) {
+  transition-delay: .6s
+}
+
+.o-title.is-inview .o-title_line:nth-child(4) {
+  transition-delay: .7s
+}
+
+.o-title_line span {
+  display: inline-block;
+  font-size: 13.5vw;
+  min-width: .05em
+}
+
+.one {
+  animation: 1s ease-out 0s 1 title;
+  transition: opacity .8s cubic-bezier(.215, .61, .355, 1), transform .8s cubic-bezier(.215, .61, .355, 1)
+
+}
+
+@keyframes title {
+  0% {
+      transform: rotateX(-90deg)
+      translateY(-100%);
+  }
+
+  100% {
+      transform: rotateX(180)
+      translateY(0%);
+  }
+}
+
+
+
+
+/*! locomotive-scroll v4.1.3 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
+html.has-scroll-smooth {
+  overflow: hidden; }
+
+html.has-scroll-dragging {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.has-scroll-smooth body {
+  overflow: hidden; }
+
+.has-scroll-smooth [data-scroll-container] {
+  min-height: 100vh; }
+
+[data-scroll-direction="horizontal"] [data-scroll-container] {
+  height: 100vh;
+  display: inline-block;
+  white-space: nowrap; }
+
+[data-scroll-direction="horizontal"] [data-scroll-section] {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  height: 100%; }
+
+.c-scrollbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 11px;
+  height: 100%;
+  transform-origin: center right;
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0; }
+  .c-scrollbar:hover {
+    transform: scaleX(1.45); }
+  .c-scrollbar:hover, .has-scroll-scrolling .c-scrollbar, .has-scroll-dragging .c-scrollbar {
+    opacity: 1; }
+  [data-scroll-direction="horizontal"] .c-scrollbar {
+    width: 100%;
+    height: 10px;
+    top: auto;
+    bottom: 0;
+    transform: scaleY(1); }
+    [data-scroll-direction="horizontal"] .c-scrollbar:hover {
+      transform: scaleY(1.3); }
+
+.c-scrollbar_thumb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.5;
+  width: 7px;
+  border-radius: 10px;
+  margin: 2px;
+  cursor: -webkit-grab;
+  cursor: grab; }
+  .has-scroll-dragging .c-scrollbar_thumb {
+    cursor: -webkit-grabbing;
+    cursor: grabbing; }
+  [data-scroll-direction="horizontal"] .c-scrollbar_thumb {
+    right: auto;
+    bottom: 0; }
