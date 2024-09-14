@@ -249,7 +249,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div class="w-full mt-4 bg-opacity-30 grid md:grid-cols-2 grid-cols-1 px-4 font-bold text-gray-600 text-xl pb-12" >
+        <div class="w-full mt-4 bg-opacity-30 grid md:grid-cols-2 grid-cols-1 px-4 font-bold text-gray-600 text-xl pb-8" >
           <a href="https://www.linkedin.com/in/alex-fernandes-022a92257/">
             <h4 class="">LinkedIn</h4>
           </a>
