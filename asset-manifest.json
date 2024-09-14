@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.888e4034.css",
+    "main.js": "/static/js/main.dd1eed12.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/Plane.jpg": "/static/media/Plane.a0c0ef4c912ad9e6ab7d.jpg",
+    "static/media/Comparison_Between_Nuclear_and_Solar_Energy_Land_Use_and_Costs.pdf": "/static/media/Comparison_Between_Nuclear_and_Solar_Energy_Land_Use_and_Costs.92e8e9a8e46c8db78bef.pdf",
+    "static/media/BWRX_300_Isolation_Condenser_System.pdf": "/static/media/BWRX_300_Isolation_Condenser_System.72ae5be6885b0ab9c3be.pdf",
+    "static/media/Comparison Paper.png": "/static/media/Comparison Paper.74cc36bbd17c6baad292.png",
+    "static/media/BWRX Paper.png": "/static/media/BWRX Paper.ccf161302b9009b356f5.png",
+    "static/media/Home.png": "/static/media/Home.ae8e85cce06d0e289115.png",
+    "static/media/FinanceAppLogin.png": "/static/media/FinanceAppLogin.bf0bdfb4bfcd1e51470e.png",
+    "static/media/ICS Train.png": "/static/media/ICS Train.bf60c60b0471b2c9aeb0.png",
+    "static/media/FinanceAppHome.png": "/static/media/FinanceAppHome.2893513039b96afbb703.png",
+    "static/media/Ground Station Frontend.png": "/static/media/Ground Station Frontend.b4fb0b11b66794fcb33e.png",
+    "static/media/FinanceAppInvestments.png": "/static/media/FinanceAppInvestments.e6d90520f17261623fd5.png",
+    "static/media/Fuel Assemblies.png": "/static/media/Fuel Assemblies.a1aa3c3ce27b686a523b.png",
+    "static/media/Ground Station PCB.png": "/static/media/Ground Station PCB.d7d07454201f66b4b8f4.png",
+    "index.html": "/index.html",
+    "main.888e4034.css.map": "/static/css/main.888e4034.css.map",
+    "main.dd1eed12.js.map": "/static/js/main.dd1eed12.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.888e4034.css",
+    "static/js/main.dd1eed12.js"
+  ]
+}
