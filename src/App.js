@@ -12,6 +12,8 @@ import ICS from "./assets/ICS Train.png"
 
 import CPaper from "./assets/Comparison Paper.png"
 
+import Rover from "./assets/rover.jpg"
+
 import FinanceHome from "./assets/FinanceAppHome.png"
 import FinanceLogin from "./assets/FinanceAppLogin.png"
 import FinanceInvestments from "./assets/FinanceAppInvestments.png"
@@ -199,8 +201,8 @@ function App() {
 
         <div class="grid grid-cols-1 md:grid-cols-2">
           <div class="md:order-first">
-            <div class="rounded-9xl overflow-hidden px-8 py-4 drop-shadow-xl">
-              <img class="overflow-hidden w-full" src={CPaper} alt="Paper" />
+            <div class="rounded-9xl overflow-hidden px-8 py-24 drop-shadow-xl">
+              <img class="overflow-hidden w-full" src={Rover} alt="Paper" />
               <p className='text-lg p-2 text-slate-400 text-center pb-8'>WeMars Rover</p>
             </div>
           </div>
