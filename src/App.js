@@ -44,9 +44,11 @@ function App() {
 
   return (
 
-    <div class="scroll-container bg-fuchsia-100" ref={scrollContainerRef}>
-      <div class="p-8 lg:p-32 grid lg:grid-cols-2 pb-0 bg-gradient-to-b from-cyan-100 to-pink-100" data-scroll-section="">
-        <div class="md:p-8 w-full text-center ">
+    <div class="scroll-container gradient" ref={scrollContainerRef}>
+      {/* <div class="p-8 lg:p-32 grid lg:grid-cols-2 pb-0 bg-gradient-to-b from-cyan-100 to-pink-100" data-scroll-section=""> */}
+      <div class="p-8 lg:p-32 grid lg:grid-cols-2 pb-0" data-scroll-section="">
+
+        <div class="md:p-8 w-full text-center text-gray-800">
           <div class="py-2">
             <h1 class="md:text-9xl text-6xl md:pb-4 pb-2 title lg:text-left drop-shadow-2xl one" data-scroll
               data-scroll-speed="1" data-scroll-position="top">
@@ -75,8 +77,8 @@ function App() {
           <img src={Home} class="w-full" alt='home page image'/>
         </div>
       </div>
-      <div class="p-8 lg:px-32 lg:p-16 pb-0 bg-gradient-to-b to-cyan-100 from-pink-100" data-scroll-section="">
-        <h1 class="md:text-7xl text-3xl font-extrabold py-4 leading-20 title pb-4 md:mb-12 text-center" data-scroll data-scroll-speed="1">
+      <div class="p-8 lg:px-32 lg:p-16 pb-0" data-scroll-section="">
+        <h1 class="md:text-7xl text-3xl font-extrabold py-4 leading-20 title pb-4 md:mb-12 text-center text-gray-800" data-scroll data-scroll-speed="1">
           About Me
         </h1>
         <div class="text-2xl text-slate-500 font-medium text-center pb-8">
@@ -114,27 +116,27 @@ function App() {
           </div>
         </div>
       </div>
-      <div class="lg:px-32 lg:p-16 pb-0 bg-gradient-to-b from-cyan-100 to-fuchsia-100" data-scroll-section="">
-        <h1 class="md:text-7xl text-3xl font-extrabold py-4 leading-20 title pb-4 md:mb-12 text-center" data-scroll data-scroll-speed="1">
+      <div class="lg:px-32 lg:p-16 pb-0" data-scroll-section="">
+        <h1 class="md:text-7xl text-3xl font-extrabold py-4 leading-20 title pb-4 md:mb-12 text-center text-gray-800" data-scroll data-scroll-speed="1">
           My Projects
         </h1>
         <div class="grid grid-cols-1 md:grid-cols-2" >
           <div class="p-8 md:py-16" data-scroll data-scroll-speed="2">
-            <h1 class="md:text-7xl text-5xl font-extrabold title">Western Aero Design Ground Station</h1>
-            <h4 class="text-lg p-2 pt-4 text-slate-400">The Western Aero Design Team is a completely student-run
+            <h1 class="md:text-7xl text-5xl font-extrabold title text-gray-800">Western Aero Design Ground Station</h1>
+            <h4 class="text-lg p-2 pt-4 text-slate-500">The Western Aero Design Team is a completely student-run
               mega project in the department of Engineering at Western University. Our team designs, fabricates,
               and flies remote-controlled, heavy-lift aircraft for the SAE Aero Design East competition.
               As Ground Station Lead, I'm responsible for designing the system that communicates with the plane to
               send commands and receive and display telemetry.
             </h4>
-            <h4 class="text-lg p-2 text-slate-400">The ground station includes a full-stack application with a React
+            <h4 class="text-lg p-2 text-slate-500">The ground station includes a full-stack application with a React
               Frontend, Express backend, and MongoDB database, packaged using Docker. Data is received by the
               Ground Station PCB,
               which includes a LoRa Radio Module and Arduino Nano, and is sent to the Ground Station App via a USB
               tool over a websocket.
             </h4>
 
-            <div class=" p-2 w-full text-slate-400">
+            <div class=" p-2 w-full text-slate-500">
               <a class="text-xl w-full duration-300" target="_blank"
                 href="http://www.westernaerodesign.com/">View Site</a>
               {" "}|{" "}
@@ -156,19 +158,19 @@ function App() {
             </div>
           </div>
           <div class="p-8 md:py-16 order-first md:order-last" data-scroll data-scroll-speed="2">
-            <h1 class="md:text-7xl text-5xl font-extrabold title">BWRX-300 Isolation Condenser System</h1>
-            <h4 class="text-lg p-2 pt-4 text-slate-400">As part of my research at Western University, I modeled the
+            <h1 class="md:text-7xl text-5xl font-extrabold title text-gray-800">BWRX-300 Isolation Condenser System</h1>
+            <h4 class="text-lg p-2 pt-4 text-slate-500">As part of my research at Western University, I modeled the
               BWRX-300's passive cooling system: the Isolation Condenser System (ICS). The BWRX-300 is a Small
               Modular Reactor (SMR) that is currently being built at the Darlington Nuclear Site in Clarington,
               Ontario.
               One of the key features of the BWRX-300 is the ICS, which it uses to passively remove decay heat
               from the reactor core after shutdown
             </h4>
-            <h4 class="text-lg p-2 text-slate-400">I modeled the ICS in Simulink to test how long it takes to cool
+            <h4 class="text-lg p-2 text-slate-500">I modeled the ICS in Simulink to test how long it takes to cool
               the BWRX-300 to a stable cold shutdown immediately after a reactor shutdown. The ICS and BWRX-300
               fuel assemblies were modelled using Simescape Two-Phase Fluid and Thermal Libraries.
             </h4>
-            <div class=" p-2 w-full text-slate-400">
+            <div class=" p-2 w-full text-slate-500">
               <a class="text-xl w-full duration-300"
                 href={ICSPaper} download>Read Paper</a>
             </div>
@@ -177,8 +179,8 @@ function App() {
 
         <div class="grid grid-cols-1 md:grid-cols-2">
           <div class="p-8 md:py-24" data-scroll data-scroll-speed="2">
-            <h1 class="md:text-7xl text-5xl font-extrabold title">Nuclear Power Cost Analysis</h1>
-            <h4 class="text-lg p-2 pt-4 text-slate-400">One of the projects I worked on during my research at
+            <h1 class="md:text-7xl text-5xl font-extrabold title text-gray-800">Nuclear Power Cost Analysis</h1>
+            <h4 class="text-lg p-2 pt-4 text-slate-500">One of the projects I worked on during my research at
               Western University was
               comparing the costs and space density of solar and nuclear energy. I did this by comparing the
               Bruce Nuclear Generating Station to a hypothetical PV farm that I designed. I analyzed the land they
@@ -187,14 +189,14 @@ function App() {
               annual power
               outputs over their lifetime to compare their Levelized Costs of Energy, along with their power outputs and associated costs.
             </h4>
-            <div class=" p-2 w-full text-slate-400">
+            <div class=" p-2 w-full text-slate-500">
               <a class="text-xl w-full duration-300" target="_blank"
                 href={ComparisonPaper} download>Read Paper</a>
             </div>
           </div>
           <div class="rounded-9xl overflow-hidden px-8 py-4 drop-shadow-xl">
             <img class="overflow-hidden w-full" src={CPaper} alt="Paper" />
-            <p className='text-lg p-2 text-slate-400 text-center pb-8'>Nuclear and Solar Energy Comparison Paper</p>
+            <p className='text-lg p-2 text-slate-500 text-center pb-8'>Nuclear and Solar Energy Comparison Paper</p>
           </div>
 
         </div>
@@ -203,12 +205,12 @@ function App() {
           <div class="md:order-first">
             <div class="rounded-9xl overflow-hidden px-8 py-24 drop-shadow-xl">
               <img class="overflow-hidden w-full" src={Rover} alt="Paper" />
-              <p className='text-lg p-2 text-slate-400 text-center pb-8'>WeMars Rover</p>
+              <p className='text-lg p-2 text-slate-500 text-center pb-8 '>WeMars Rover</p>
             </div>
           </div>
           <div class="p-8 md:py-32 order-first md:order-last" data-scroll data-scroll-speed="2">
-            <h1 class="md:text-7xl text-5xl font-extrabold title">WeMars GPS System</h1>
-            <h4 class="text-lg p-2 pt-4 text-slate-400">The WeMars Team is a student-led club driven towards
+            <h1 class="md:text-7xl text-5xl font-extrabold title text-gray-800">WeMars GPS System</h1>
+            <h4 class="text-lg p-2 pt-4 text-slate-500">The WeMars Team is a student-led club driven towards
               the goal of building a rover that is capable of accomplishing various tasks in environments similar
               to ones found on the surface of Mars.
               As a member of the Software Team, I helped design the GPS system that allows us to track the rover's
@@ -217,7 +219,7 @@ function App() {
               the rover's coordinates via an API call to the ESP32. I designed a frontend in React.js that uses
               the Google Maps' API to track the real-time position of the rover.
             </h4>
-            <div class=" p-2 w-full text-slate-400">
+            <div class=" p-2 w-full text-slate-500">
               <a class="text-xl w-full duration-300" target="_blank"
                 href="https://wemars.org/">View Site</a>
               {" "}|{" "}
@@ -230,8 +232,8 @@ function App() {
 
         <div class="grid grid-cols-1 md:grid-cols-2">
           <div class="p-8 md:py-24" data-scroll data-scroll-speed="2">
-            <h1 class="md:text-7xl text-5xl font-extrabold title">Investment Management App</h1>
-            <h4 class="text-lg p-2 pt-4 text-slate-400">The Investment Management App is a project designed by
+            <h1 class="md:text-7xl text-5xl font-extrabold title text-gray-800">Investment Management App</h1>
+            <h4 class="text-lg p-2 pt-4 text-slate-500">The Investment Management App is a project designed by
               myself and a couple of my fellow engineering students that gives the user all the information they need to make
               investment decisions.
               The app includes a React.js frontend and a Flask backend and is packaged using Docker. The app
@@ -240,7 +242,7 @@ function App() {
               own personal bank account to view their account balances, recent transactions, and current investment
               holdings.
             </h4>
-            <div class=" p-2 w-full text-slate-400">
+            <div class=" p-2 w-full text-slate-500">
               <a class="text-xl w-full duration-300" target="_blank"
                 href="https://github.com/ShaimaaAliECE/groupproject-14">View Repository</a>
             </div>
