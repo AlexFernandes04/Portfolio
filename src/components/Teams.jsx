@@ -20,7 +20,7 @@ const teams = [
     period: "Jan 2025 — Present",
     role: "Attitude Determination and Control System (ADCS) Team Member",
     description:
-      "The Western Skylark CubeSat team is building a 3U CubeSat that will enhance wildlife tracking by collecting space-based data on migratory songbirds, waterbirds, and shorebirds. The ADCS subsystem is responsible for managing the spacecraft's orientation during the missing, including detumbling after deployment ining accurate Nadir-pointing throughout the operational phase.",
+      "The Western Skylark CubeSat team is building a 3U CubeSat that will enhance wildlife tracking by collecting space-based data on migratory songbirds, waterbirds, and shorebirds. The ADCS subsystem is responsible for managing the spacecraft's orientation during the missing, including detumbling after deployment and maintaining accurate Nadir-pointing throughout the operational phase.",
     focus: ["Matlab", "D2S2 Simulator", "SIL & HIL Testing"],
     link: "https://space.uwo.ca/research/Missions%20and%20Instruments/Skylark.html",
     images: [
